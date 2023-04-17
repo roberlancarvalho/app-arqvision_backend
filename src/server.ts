@@ -9,7 +9,7 @@ const route = Router();
 app.use(express.json());
 
 route.get("/", (req: Request, res: Response) => {
-  res.json({ message: "Hello World with Typescript" });
+  res.json({ message: "Hello World! APP Dream House" });
   console.log("Rodando na porta 3333")
 });
 
